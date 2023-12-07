@@ -10,13 +10,16 @@ The dataset was gotten from [Kaggle Walmart Sales Forecasting Competition](https
 
 ### Tools
 
+- MySQL Workbench - Data Cleaning
+- MySQL - Data Analysis
+
 ### Data Cleaning/Preparation
 
 In the data cleaning phase, the following actions where performed:
-1. Data loading and inspection
-2. Adding extra columns to my dataset from the date and time column to simplify the analysis
+1. Data loading and inspection.
+2. Adding extra columns to my dataset from the date and time column to simplify the analysis.
 
-### Exploratort Data Analysis
+### Exploratory Data Analysis
 
 EDA involved exploring the sales data to answer key questions, such as:
 
@@ -25,10 +28,20 @@ EDA involved exploring the sales data to answer key questions, such as:
 - What are the peak sales perods?
 - What gender buys more from the 
   
-
 ### Data Analysis
 
+---sql
+
+ SELECT
+		city,
+        AVG(VAT) AS VAT
+	FROM sales
+        GROUP BY city
+        ORDER BY VAT DESC;
+---
+
 ### Result/Findings
+
 
 ### Recommendations
 
