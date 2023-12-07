@@ -26,7 +26,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 - What the over all sales trend ?
 - Which product line are top sellers ?
 - What are the peak sales perods?
-- What gender buys more from the 
+- What gender has the majority customers? 
   
 ### Data Analysis
 
@@ -42,9 +42,19 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 ### Result/Findings
 
+- The month of January had the most sales.
+- Food and beverage product line generated the most revenue.
+- From the analysis we can see that the most sales where made in the evenings.
+- The male and the female gender is relatively the same in terms of customers
+
 
 ### Recommendations
 
-### Limitations
+- Invest more in varieties of goods in January.
+- Focus on expanding the market for food and beverages.
+- Do promotions more informing people about evening sales and possibly extend the closing time.
+  
 
 ### References
+
+- sql for Business Analyst.
