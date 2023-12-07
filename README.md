@@ -57,4 +57,4 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 ### References
 
-- sql for Business Analyst.
+- SQL for Business Analyst.
